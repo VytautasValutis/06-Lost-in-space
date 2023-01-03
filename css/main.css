@@ -2,66 +2,63 @@ body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header, main, footer {
+.konteineris {
     display: inline-block;
     width: 800px; 
     margin-left: calc(50% - 400px);
     margin-bottom: 30px;
 }
-header {
+.konteineris:first-child {
     margin-top: 50px;
 }
-header > img {
+.logo {
     width: 200px;
     height: 50px;
     object-fit: contain;
     object-position: left;
     float: left;
 }
-nav {
+.top-menu {
     float: right;
     margin-top: 15px;
 }
-nav > a {
+.link {
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
     color: #000;
     margin-left: 30px;
 }
-nav > a:first-child {
+.link:first-child {
     margin-left: 0;
 }
-nav > a:hover {
+.link:hover {
     text-decoration: underline;
 }
-main {
-
-}
-div {
+.left-col {
     width: 40%;
     display: block;
     float: left;
 }
-h1 {
+.antraste {
     color: #222222;
     font-size: 50px;
     font-weight: normal;
     display: block;
 }
-span {
+.boldas-blokas {
     font-weight: bold;
     display: block;
 }
-p {
-
+.kair-tekstas {
+    font-size: 18px;
 }
-main > img { 
+.main-img { 
     width: 55%;
     display: block;
     float: right;
 }
-main > div > a {
+.mygtukas {
     color: #fff;
     padding: 0.9em;
     padding-left: 2em;
@@ -78,25 +75,28 @@ main > div > a {
     border: 5px solid #554485;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.33);    
 }
-main> div > a:hover {
+.mygtukas:hover {
     background-color: rosybrown;
     box-shadow: none;    
 }
-div > a:last-child {
+.mygtukas:last-child {
     background-color: #fff;
     color: #000;
 }
-div > a:last-child:hover {
+.mygtukas:last-child:hover {
     background-color: rosybrown;
 } 
-footer {
-}
-footer > div {
+.social {
     display: block;
     float: left;
 } 
-footer > p {
+.copyright {
     display: block;
     float: right;
     margin: 0;
+}
+.ikonos {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 1em;
 }
