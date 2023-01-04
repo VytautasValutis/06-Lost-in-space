@@ -41,9 +41,16 @@ body {
     float: left;
 }
 .antraste {
-    color: #222222;
+    color: #662c8c;
     font-size: 50px;
     font-weight: normal;
+    display: block;
+}
+.antraste::after {
+    content: '';
+    width: 100px;
+    height: 6px;
+    background-color: #662c8c;
     display: block;
 }
 .boldas-blokas {
